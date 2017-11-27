@@ -631,6 +631,8 @@ img.logo {
 
 .item-arquivo-revista img, .item-arquivo img {
   width: 100%;
+  max-width: 300px;
+  min-width: 150px;
   height: auto; }
 
 .item-arquivo-revista, .item-arquivo {
