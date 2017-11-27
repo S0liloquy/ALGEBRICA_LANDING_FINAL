@@ -39,11 +39,7 @@
 </head>
 
 <body>
-    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
-    <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-    <script type="text/javascript" src="js/materialize.min.js"></script>
-    <script type="text/javascript" src="slick/slick.min.js"></script>
-    <script type="text/javascript" src="js/scripts.js"></script>
+    
     <h1 class="assistive-hidden">Website Auto Profissional</h1>
     <main>
 
@@ -865,6 +861,25 @@ H147.6z"/>
 
 
     </main>
+
+<!-- JAVASCRIPT -->
+<script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script type="text/javascript" src="slick/slick.min.js"></script>
+    <script type="text/javascript" src="js/scripts.js"></script>
+<!--<script type="text/javascript">-->
+function downloadJSAtOnload() {
+var element = document.createElement("script");
+element.src = "scripts.js";
+document.body.appendChild(element);
+}
+if (window.addEventListener)
+window.addEventListener("load", downloadJSAtOnload, false);
+else if (window.attachEvent)
+window.attachEvent("onload", downloadJSAtOnload);
+else window.onload = downloadJSAtOnload;
+</script>
 
 </body>
 
