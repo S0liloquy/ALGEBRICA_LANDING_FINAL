@@ -518,7 +518,8 @@ img.logo {
 .c-buttons {
   background-color: #B90C0E;
   height: 16rem;
-  padding-top: 5.7rem; }
+  padding-top: 5.7rem;
+  border-bottom: 1px solid white; }
 
 .l-buttons {
   width: 100%; }
