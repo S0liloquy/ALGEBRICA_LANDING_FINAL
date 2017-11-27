@@ -630,7 +630,8 @@ img.logo {
   width: 20%; }
 
 .item-arquivo-revista img, .item-arquivo img {
-  width: 100%; }
+  width: 100%;
+  height: auto; }
 
 .item-arquivo-revista, .item-arquivo {
   width: 100%;
