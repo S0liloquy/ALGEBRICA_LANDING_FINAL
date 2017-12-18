@@ -245,7 +245,7 @@ $(document).ready(function(){
   slidesToShow: 5,
       dots: true,
       accessibility:true,
-      initialSlide:'7',
+      initialSlide:'2',
       responsive: [
     {
       breakpoint: 1281,
