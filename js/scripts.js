@@ -196,9 +196,11 @@ $(document).ready(function(){
   centerMode: true,
   centerPadding: '30px',
   slidesToShow: 5,
+      
       dots: true,
       accessibility:true,
       initialSlide:'9',
+      infinite:true,
       responsive: [
     {
       breakpoint: 1281,
@@ -245,7 +247,7 @@ $(document).ready(function(){
   slidesToShow: 5,
       dots: true,
       accessibility:true,
-      initialSlide:'2',
+      initialSlide:'7',
       responsive: [
     {
       breakpoint: 1281,
