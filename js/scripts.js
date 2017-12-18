@@ -199,7 +199,7 @@ $(document).ready(function(){
       
       dots: true,
       accessibility:true,
-      initialSlide:'9',
+      initialSlide:'10',
       infinite:true,
       responsive: [
     {
@@ -247,7 +247,7 @@ $(document).ready(function(){
   slidesToShow: 5,
       dots: true,
       accessibility:true,
-      initialSlide:'7',
+      initialSlide:'8',
       responsive: [
     {
       breakpoint: 1281,
